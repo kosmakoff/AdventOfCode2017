@@ -31,5 +31,10 @@ namespace Common
                 }
             }
         }
+
+        public static Func<T, T> Identity<T>()
+        {
+            return t => t;
+        }
     }
 }
