@@ -1,6 +1,6 @@
-﻿namespace Day18.Instructions
+﻿namespace Common.Assembler
 {
-    internal class Register : IValue
+    public class Register : IValue
     {
         private readonly Memory _memory;
         public char Name { get; }

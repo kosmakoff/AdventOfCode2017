@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Day18.Instructions;
+using Common.Assembler;
+using Common.Assembler.Instructions;
 using static Common.Utils;
 
 namespace Day18

@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace Day18.Instructions
+﻿namespace Common.Assembler.Instructions
 {
-    internal class SndInstruction : IInstruction
+    public class SndInstruction : IInstruction
     {
         public IValue Value { get; }
 

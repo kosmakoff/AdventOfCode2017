@@ -1,6 +1,6 @@
-﻿namespace Day18.Instructions
+﻿namespace Common.Assembler.Instructions
 {
-    internal class SetInstruction : IInstruction
+    public class SetInstruction : IInstruction
     {
         private readonly Register _register;
         private readonly IValue _value;

@@ -1,6 +1,6 @@
-﻿namespace Day18.Instructions
+﻿namespace Common.Assembler
 {
-    internal class Number : IValue
+    public class Number : IValue
     {
         public long Value { get; }
 

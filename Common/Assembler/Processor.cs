@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Text;
+using Common.Assembler.Instructions;
 using Common;
 
-namespace Day18.Instructions
+namespace Common.Assembler
 {
-    internal class Processor
+    public class Processor
     {
         private int _instructionPointer;
 

@@ -67,5 +67,17 @@ namespace Common
                 yield return source.Current;
             }
         }
+
+        public static bool TryDequeue<T>(this Queue<T> queue, out T value)
+        {
+            value = default(T);
+            if (queue.Any())
+            {
+                value = queue.Dequeue();
+                return true;
+            }
+
+            return false;
+        }
     }
 }

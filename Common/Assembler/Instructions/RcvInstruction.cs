@@ -1,6 +1,6 @@
-﻿namespace Day18.Instructions
+﻿namespace Common.Assembler.Instructions
 {
-    internal class RcvInstruction : IInstruction
+    public class RcvInstruction : IInstruction
     {
         public Register Register { get; }
 
